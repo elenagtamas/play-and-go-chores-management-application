@@ -15,10 +15,8 @@ class Household extends StatelessWidget {
       body: SafeArea(
         child: LayoutBuilder(
           builder: (context, constraints) {
-            // Detecție tabletă 11 inch
             final isTablet = constraints.maxWidth > 600;
             
-            // Scale factor pentru tabletă
             final scale = isTablet ? 1.4 : 1.0;
             
             return Stack(
@@ -33,7 +31,14 @@ class Household extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: GoogleFonts.moiraiOne(
                         fontSize: 34 * scale,
-                        fontWeight: FontWeight.bold,
+                        fontWeight: FontWeight.w900,
+                        shadows: [
+                          Shadow(
+                            offset: Offset(3, 3),
+                            blurRadius: 6,
+                            color: Colors.black.withOpacity(0.3),
+                          ),
+                        ],
                       ),
                     ),
                   ),
@@ -69,7 +74,6 @@ class Household extends StatelessWidget {
                       height: 510.87 * scale,
                       child: Stack(
                         children: [
-                          // Bedroom
                           Positioned(
                             left: isTablet ? (800 - 406) / 2 : 1.68,
                             top: 317 * scale,
@@ -82,6 +86,7 @@ class Household extends StatelessWidget {
                                     MaterialPageRoute(
                                       builder: (_) => Room(
                                         roomName: 'Bedroom',
+                                        
                                         roomImagePath: 'assets/images/imgBedroom.png',
                                       ),
                                     ),
@@ -105,9 +110,9 @@ class Household extends StatelessWidget {
                                             ),
                                             boxShadow: [
                                               BoxShadow(
-                                                color: Color(0x3F000000),
-                                                blurRadius: 70,
-                                                offset: Offset(0, 3),
+                                                color: Color.fromARGB(26, 0, 0, 0),
+                                                blurRadius: 100,
+                                                offset: Offset(0, 1),
                                                 spreadRadius: 0,
                                               )
                                             ],
@@ -123,13 +128,18 @@ class Household extends StatelessWidget {
                                           child: Transform(
                                             transform: Matrix4.identity()..translate(0.0, 0.0)..rotateZ(0.38),
                                             child: Text(
-                                              'bedroom',
+                                              'Bedroom',
                                               textAlign: TextAlign.center,
-                                              style: const TextStyle(
-                                                color: Colors.black,
-                                                fontSize: 17,
-                                                fontFamily: 'Moirai One',
-                                                fontWeight: FontWeight.w400,
+                                              style: GoogleFonts.moiraiOne(
+                                                fontSize: 12 * scale,
+                                                fontWeight: FontWeight.w900,
+                                                shadows: [
+                                                  Shadow(
+                                                    offset: Offset(3, 3),
+                                                    blurRadius: 6,
+                                                    color: Colors.black.withOpacity(0.3),
+                                                  ),
+                                                ],
                                               ),
                                             ),
                                           ),
@@ -176,9 +186,9 @@ class Household extends StatelessWidget {
                                             ),
                                             boxShadow: [
                                               BoxShadow(
-                                                color: Color(0x3F000000),
-                                                blurRadius: 70,
-                                                offset: Offset(0, 3),
+                                                color: Color.fromARGB(26, 0, 0, 0),
+                                                blurRadius: 100,
+                                                offset: Offset(0, 1),
                                                 spreadRadius: 0,
                                               )
                                             ],
@@ -194,13 +204,18 @@ class Household extends StatelessWidget {
                                           child: Transform(
                                             transform: Matrix4.identity()..translate(0.0, 0.0)..rotateZ(0.38),
                                             child: Text(
-                                              'bathroom',
+                                              'Bathroom',
                                               textAlign: TextAlign.center,
-                                              style: const TextStyle(
-                                                color: Colors.black,
-                                                fontSize: 17,
-                                                fontFamily: 'Moirai One',
-                                                fontWeight: FontWeight.w400,
+                                              style: GoogleFonts.moiraiOne(
+                                                fontSize: 12 * scale,
+                                                fontWeight: FontWeight.w900,
+                                                shadows: [
+                                                  Shadow(
+                                                    offset: Offset(3, 3),
+                                                    blurRadius: 6,
+                                                    color: Colors.black.withOpacity(0.3),
+                                                  ),
+                                                ],
                                               ),
                                             ),
                                           ),
@@ -247,9 +262,9 @@ class Household extends StatelessWidget {
                                             ),
                                             boxShadow: [
                                               BoxShadow(
-                                                color: Color(0x3F000000),
-                                                blurRadius: 70,
-                                                offset: Offset(0, 3),
+                                                color: Color.fromARGB(26, 0, 0, 0),
+                                                blurRadius: 100,
+                                                offset: Offset(0, 1),
                                                 spreadRadius: 0,
                                               )
                                             ],
@@ -265,13 +280,18 @@ class Household extends StatelessWidget {
                                           child: Transform(
                                             transform: Matrix4.identity()..translate(0.0, 0.0)..rotateZ(0.48),
                                             child: Text(
-                                              'kitchen',
+                                              'Kitchen',
                                               textAlign: TextAlign.center,
-                                              style: const TextStyle(
-                                                color: Colors.black,
-                                                fontSize: 17,
-                                                fontFamily: 'Moirai One',
-                                                fontWeight: FontWeight.w400,
+                                              style: GoogleFonts.moiraiOne(
+                                                fontSize: 12 * scale,
+                                                fontWeight: FontWeight.w900,
+                                                shadows: [
+                                                  Shadow(
+                                                    offset: Offset(3, 3),
+                                                    blurRadius: 6,
+                                                    color: Colors.black.withOpacity(0.3),
+                                                  ),
+                                                ],
                                               ),
                                             ),
                                           ),
@@ -318,9 +338,9 @@ class Household extends StatelessWidget {
                                             ),
                                             boxShadow: [
                                               BoxShadow(
-                                                color: Color(0x3F000000),
-                                                blurRadius: 70,
-                                                offset: Offset(0, 3),
+                                                color: Color.fromARGB(26, 0, 0, 0),
+                                                blurRadius: 100,
+                                                offset: Offset(0, 1),
                                                 spreadRadius: 0,
                                               )
                                             ],
@@ -338,11 +358,16 @@ class Household extends StatelessWidget {
                                             child: Text(
                                               'Office Room',
                                               textAlign: TextAlign.center,
-                                              style: const TextStyle(
-                                                color: Colors.black,
-                                                fontSize: 17,
-                                                fontFamily: 'Moirai One',
-                                                fontWeight: FontWeight.w400,
+                                              style: GoogleFonts.moiraiOne(
+                                                fontSize: 12 * scale,
+                                                fontWeight: FontWeight.w900,
+                                                shadows: [
+                                                  Shadow(
+                                                    offset: Offset(3, 3),
+                                                    blurRadius: 6,
+                                                    color: Colors.black.withOpacity(0.3),
+                                                  ),
+                                                ],
                                               ),
                                             ),
                                           ),
@@ -389,9 +414,9 @@ class Household extends StatelessWidget {
                                             ),
                                             boxShadow: [
                                               BoxShadow(
-                                                color: Color(0x3F000000),
-                                                blurRadius: 70,
-                                                offset: Offset(0, 3),
+                                                color: Color.fromARGB(26, 0, 0, 0),
+                                                blurRadius: 100,
+                                                offset: Offset(0, 1),
                                                 spreadRadius: 0,
                                               )
                                             ],
@@ -407,13 +432,18 @@ class Household extends StatelessWidget {
                                           child: Transform(
                                             transform: Matrix4.identity()..translate(0.0, 0.0)..rotateZ(0.61),
                                             child: Text(
-                                              'living room',
+                                              'Living Room',
                                               textAlign: TextAlign.center,
-                                              style: const TextStyle(
-                                                color: Colors.black,
-                                                fontSize: 17,
-                                                fontFamily: 'Moirai One',
-                                                fontWeight: FontWeight.w400,
+                                              style: GoogleFonts.moiraiOne(
+                                                fontSize: 12 * scale,
+                                                fontWeight: FontWeight.w900,
+                                                shadows: [
+                                                  Shadow(
+                                                    offset: Offset(3, 3),
+                                                    blurRadius: 6,
+                                                    color: Colors.black.withOpacity(0.3),
+                                                  ),
+                                                ],
                                               ),
                                             ),
                                           ),

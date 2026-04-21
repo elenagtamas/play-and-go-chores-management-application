@@ -96,10 +96,17 @@ class _RoomState extends State<Room> {
                 child: Text(
                   widget.roomName,
                   textAlign: TextAlign.center,
-                  style: GoogleFonts.moiraiOne(
-                    fontSize: 34,
-                    fontWeight: FontWeight.bold,
-                  ),
+                      style: GoogleFonts.moiraiOne(
+                        fontSize: 40,
+                        fontWeight: FontWeight.w900,
+                        shadows: [
+                          Shadow(
+                            offset: Offset(3, 3),
+                            blurRadius: 6,
+                            color: Colors.black.withOpacity(0.3),
+                          ),
+                        ],
+                      ),
                 ),
               ),
             ),
@@ -139,9 +146,9 @@ class _RoomState extends State<Room> {
                       borderRadius: BorderRadius.circular(20),
                       boxShadow: const [
                         BoxShadow(
-                          color: Color(0x3F000000),
-                          blurRadius: 70,
-                          offset: Offset(0, 3),
+                          color: Color.fromARGB(26, 0, 0, 0),
+                          blurRadius: 200,
+                          offset: Offset(0, 1),
                           spreadRadius: 0,
                         )
                       ],
