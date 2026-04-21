@@ -42,6 +42,13 @@ dependencies:
   google_sign_in: ^6.2.1
   shared_preferences: ^2.5.4
   font_awesome_flutter: ^10.7.0
+  intl: ^0.20.2
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  uuid: ^4.3.3
+
+  flutter_localizations:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -69,6 +76,45 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+      - assets/images/claire.png
+      - assets/images/dennis.png
+      - assets/images/john.png
+      - assets/images/lilith.png
+      - assets/images/apple.png
+      - assets/images/facebook.png
+      - assets/images/Thor.png
+      - assets/images/Loki.png
+      - assets/images/Grandma.png
+      - assets/images/Grandpa.png
+      - assets/images/LadyElf.png
+      - assets/images/GirlElf.png
+      - assets/images/google.png
+      - assets/images/roadWidgetFrame.png
+      - assets/images/roadmap.png
+      - assets/images/imgCup.png
+      - assets/images/imgStars1.png
+      - assets/images/imgStars2.png
+      - assets/images/imgBathroom.png
+      - assets/images/imgBedroom.png
+      - assets/images/imgKitchen.png
+      - assets/images/imgLiving.png
+      - assets/images/imgOffice.png
+      - assets/images/imgLivingroom.png
+      - assets/images/imgOfficeroom.png
+      - assets/images/img1.png
+      - assets/images/img4.png
+      - assets/images/img2.png
+      - assets/images/img10.png
+      - assets/images/img7.png
+      - assets/images/img8.png
+      - assets/images/img6.png
+      - assets/images/img3.png
+      - assets/images/img5.png
+      - assets/images/img9.png
+      - assets/images/btnDennisProfile.png
+      - assets/images/btnClaireProfile.png
+      - assets/images/applogo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

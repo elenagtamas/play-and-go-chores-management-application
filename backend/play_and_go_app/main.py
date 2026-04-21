@@ -6,10 +6,11 @@ from google.oauth2 import id_token
 from google.auth.transport import requests
 from dotenv import load_dotenv
 import os
+import play_and_go_app.models
 load_dotenv()
 
 from play_and_go_app.db.session import engine
-from play_and_go_app.routers import auth_router, user_router, household_router, chore_router, reward_router
+from play_and_go_app.routers import auth_router, user_router, household_router, chore_router, reward_router, profile_router
 from play_and_go_app.db.base import Base
 
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
@@ -26,6 +27,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
+app.include_router(profile_router.router)
 app.include_router(auth_router.router)
 app.include_router(user_router.router)
 app.include_router(household_router.router)
