@@ -51,6 +51,7 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
   flutter_test:
     sdk: flutter
 
@@ -115,6 +116,7 @@ flutter:
       - assets/images/btnDennisProfile.png
       - assets/images/btnClaireProfile.png
       - assets/images/applogo.png
+      - assets/images/playandgologo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -141,3 +143,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/playandgologo.png"

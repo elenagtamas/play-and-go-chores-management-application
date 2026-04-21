@@ -185,13 +185,13 @@ class HomeScreen extends StatelessWidget {
               ),
               const Spacer(),
               SizedBox(
-                width: 720,
-                height: 1024,
+                width: 180,
+                height: 740,
                 child: Stack(
                     children: [
                         Positioned(
-                            left: 400,
-                            top: 850,
+                            left: 90,
+                            top: 620,
                             child: GestureDetector(
                                 onTap: () {
                                   Navigator.push(
@@ -202,16 +202,16 @@ class HomeScreen extends StatelessWidget {
                                   );
                                 },
                             child: SizedBox(
-                                width: 113,
-                                height: 103,
+                                width: 83,
+                                height: 83,
                                 child: Stack(
                                     children: [
                                         Positioned(
                                             left: 0,
                                             top: 0,
                                             child: Container(
-                                                width: 103,
-                                                height: 103,
+                                                width: 83,
+                                                height: 83,
                                                 decoration: ShapeDecoration(
                                                     gradient: LinearGradient(
                                                         begin: Alignment(0.50, -0.00),
@@ -232,16 +232,16 @@ class HomeScreen extends StatelessWidget {
                                         ),
                                         Positioned(
                                             left: 20,
-                                            top: 10,
+                                            top: 12,
                                             child: SizedBox(
-                                                width: 60,
-                                                height: 70,
+                                                width: 44,
+                                                height: 55,
                                                 child: Text(
                                                     'M',
                                                     textAlign: TextAlign.center,
                                                     style: TextStyle(
                                                         color: const Color(0xFFFFFBFB),
-                                                        fontSize: 60,
+                                                        fontSize: 45,
                                                         fontFamily: 'Lilita One',
                                                         fontWeight: FontWeight.w900,
                                                     ),
@@ -254,8 +254,8 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
                         Positioned(
-                            left: 460,
-                            top: 670,
+                            left: 110,
+                            top: 500,
                             child: GestureDetector(
                                 onTap: () {
                                   Navigator.push(
@@ -267,79 +267,15 @@ class HomeScreen extends StatelessWidget {
                                 },
                             child: SizedBox(
                                 width: 102,
-                                height: 102,
+                                height: 71,
                                 child: Stack(
                                     children: [
                                         Positioned(
                                             left: 0,
                                             top: 0,
                                             child: Container(
-                                                width: 93,
-                                                height: 93,
-                                                decoration: ShapeDecoration(
-                                                    gradient: LinearGradient(
-                                                        begin: Alignment(0.50, -0.00),
-                                                        end: Alignment(0.50, 1.00),
-                                                        colors: [Color.fromARGB(255, 255, 173, 148), Color.fromARGB(255, 255, 246, 167)],
-                                                    ),
-                                                    shape: OvalBorder(),
-                                                    shadows: [
-                                                        BoxShadow(
-                                                            color: Color(0x3F000000),
-                                                            blurRadius: 13,
-                                                            offset: Offset(0, 18),
-                                                            spreadRadius: -6,
-                                                        )
-                                                    ],
-                                                ),
-                                            ),
-                                        ),
-                                        Positioned(
-                                            left: 16,
-                                            top: 8,
-                                            child: SizedBox(
-                                                width: 60,
-                                                height: 60,
-                                                child: Text(
-                                                    'T',
-                                                    textAlign: TextAlign.center,
-                                                    style: TextStyle(
-                                                        color: Colors.white,
-                                                        fontSize: 60,
-                                                        fontFamily: 'Lilita One',
-                                                        fontWeight: FontWeight.w900,
-                                                    ),
-                                                ),
-                                            ),
-                                        ),
-                                    ],
-                                ),
-                            ),
-                          ),
-                        ),
-                        Positioned(
-                            left: 280,
-                            top: 550,
-                            child: GestureDetector(
-                                onTap: () {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (_) => Household(),
-                                    ),
-                                  );
-                                },
-                            child: SizedBox(
-                                width: 93,
-                                height: 93,
-                                child: Stack(
-                                    children: [
-                                        Positioned(
-                                            left: 0,
-                                            top: 0,
-                                            child: Container(
-                                                width: 80,
-                                                height: 80,
+                                                width: 71,
+                                                height: 71,
                                                 decoration: ShapeDecoration(
                                                     gradient: LinearGradient(
                                                         begin: Alignment(0.50, -0.00),
@@ -360,16 +296,16 @@ class HomeScreen extends StatelessWidget {
                                         ),
                                         Positioned(
                                             left: 14,
-                                            top: 7,
+                                            top: 8,
                                             child: SizedBox(
-                                                width: 50,
-                                                height: 50,
+                                                width: 44,
+                                                height: 45,
                                                 child: Text(
-                                                    'W',
+                                                    'T',
                                                     textAlign: TextAlign.center,
                                                     style: TextStyle(
-                                                        color: const Color(0xFFFFF7F7),
-                                                        fontSize: 52,
+                                                        color: Colors.white,
+                                                        fontSize: 45,
                                                         fontFamily: 'Lilita One',
                                                         fontWeight: FontWeight.w900,
                                                     ),
@@ -382,8 +318,8 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
                         Positioned(
-                            left: 220,
-                            top: 410,
+                            left: 34,
+                            top: 399,
                             child: GestureDetector(
                                 onTap: () {
                                   Navigator.push(
@@ -394,16 +330,16 @@ class HomeScreen extends StatelessWidget {
                                   );
                                 },
                             child: SizedBox(
-                                width: 65,
-                                height: 65,
+                                width: 63,
+                                height: 63,
                                 child: Stack(
                                     children: [
                                         Positioned(
                                             left: 0,
                                             top: 0,
                                             child: Container(
-                                                width: 65,
-                                                height: 65,
+                                                width: 63,
+                                                height: 63,
                                                 decoration: ShapeDecoration(
                                                     gradient: LinearGradient(
                                                         begin: Alignment(0.50, -0.00),
@@ -423,17 +359,17 @@ class HomeScreen extends StatelessWidget {
                                             ),
                                         ),
                                         Positioned(
-                                            left: 16,
-                                            top: 3,
+                                            left: 12,
+                                            top: 7,
                                             child: SizedBox(
-                                                width: 32,
-                                                height: 44,
+                                                width: 39,
+                                                height: 37,
                                                 child: Text(
-                                                    'T',
+                                                    'W',
                                                     textAlign: TextAlign.center,
                                                     style: TextStyle(
-                                                        color: const Color(0xFFFFF6F6),
-                                                        fontSize: 46,
+                                                        color: const Color(0xFFFFF7F7),
+                                                        fontSize: 40,
                                                         fontFamily: 'Lilita One',
                                                         fontWeight: FontWeight.w900,
                                                     ),
@@ -446,8 +382,8 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
                         Positioned(
-                            left: 370,
-                            top: 300,
+                            left: 0,
+                            top: 292,
                             child: GestureDetector(
                                 onTap: () {
                                   Navigator.push(
@@ -458,16 +394,80 @@ class HomeScreen extends StatelessWidget {
                                   );
                                 },
                             child: SizedBox(
-                                width: 62,
-                                height: 62,
+                                width: 57,
+                                height: 57,
                                 child: Stack(
                                     children: [
                                         Positioned(
                                             left: 0,
                                             top: 0,
                                             child: Container(
-                                                width: 62,
-                                                height: 62,
+                                                width: 57,
+                                                height: 57,
+                                                decoration: ShapeDecoration(
+                                                    gradient: LinearGradient(
+                                                        begin: Alignment(0.50, -0.00),
+                                                        end: Alignment(0.50, 1.00),
+                                                        colors: [Color.fromARGB(255, 255, 173, 148), Color.fromARGB(255, 255, 246, 167)],
+                                                    ),
+                                                    shape: OvalBorder(),
+                                                    shadows: [
+                                                        BoxShadow(
+                                                            color: Color(0x3F000000),
+                                                            blurRadius: 13,
+                                                            offset: Offset(0, 18),
+                                                            spreadRadius: -6,
+                                                        )
+                                                    ],
+                                                ),
+                                            ),
+                                        ),
+                                        Positioned(
+                                            left: 12,
+                                            top: 5,
+                                            child: SizedBox(
+                                                width: 32,
+                                                height: 44,
+                                                child: Text(
+                                                    'T',
+                                                    textAlign: TextAlign.center,
+                                                    style: TextStyle(
+                                                        color: const Color(0xFFFFF6F6),
+                                                        fontSize: 39,
+                                                        fontFamily: 'Lilita One',
+                                                        fontWeight: FontWeight.w900,
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                    ],
+                                ),
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                            left: 81,
+                            top: 191,
+                            child: GestureDetector(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (_) => Household(),
+                                    ),
+                                  );
+                                },
+                            child: SizedBox(
+                                width: 82,
+                                height: 51,
+                                child: Stack(
+                                    children: [
+                                        Positioned(
+                                            left: 0,
+                                            top: 0,
+                                            child: Container(
+                                                width: 51,
+                                                height: 51,
                                                 decoration: ShapeDecoration(
                                                     gradient: LinearGradient(
                                                         begin: Alignment(0.50, -0.00),
@@ -487,7 +487,7 @@ class HomeScreen extends StatelessWidget {
                                             ),
                                         ),
                                         Positioned(
-                                            left: 15,
+                                            left: 10,
                                             top: 2,
                                             child: SizedBox(
                                                 width: 32,
@@ -497,7 +497,7 @@ class HomeScreen extends StatelessWidget {
                                                     textAlign: TextAlign.center,
                                                     style: TextStyle(
                                                         color: const Color(0xFFFFFAFA),
-                                                        fontSize: 42,
+                                                        fontSize: 38,
                                                         fontFamily: 'Lilita One',
                                                         fontWeight: FontWeight.w900,
                                                     ),
@@ -510,8 +510,8 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
                         Positioned(
-                            left: 450,
-                            top: 150,
+                            left: 93,
+                            top: 75,
                             child: GestureDetector(
                                 onTap: () {
                                   Navigator.push(
@@ -522,16 +522,16 @@ class HomeScreen extends StatelessWidget {
                                   );
                                 },
                             child: SizedBox(
-                                width: 52,
-                                height: 52,
+                                width: 47,
+                                height: 47,
                                 child: Stack(
                                     children: [
                                         Positioned(
                                             left: 0,
                                             top: 0,
                                             child: Container(
-                                                width: 52,
-                                                height: 52,
+                                                width: 47,
+                                                height: 47,
                                                 decoration: ShapeDecoration(
                                                     gradient: LinearGradient(
                                                         begin: Alignment(0.50, -0.00),
@@ -551,8 +551,8 @@ class HomeScreen extends StatelessWidget {
                                             ),
                                         ),
                                         Positioned(
-                                            left: 10,
-                                            top: 2,
+                                            left: 8,
+                                            top: 0,
                                             child: SizedBox(
                                                 width: 32,
                                                 height: 42,
@@ -574,8 +574,8 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
                         Positioned(
-                            left: 320,
-                            top: 30,
+                            left: 26,
+                            top: 0,
                             child: GestureDetector(
                                 onTap: () {
                                   Navigator.push(
@@ -586,16 +586,16 @@ class HomeScreen extends StatelessWidget {
                                   );
                                 },
                             child: SizedBox(
-                                width: 50,
-                                height: 50,
+                                width: 44,
+                                height: 44,
                                 child: Stack(
                                     children: [
                                         Positioned(
                                             left: 0,
                                             top: 0,
                                             child: Container(
-                                                width: 50,
-                                                height: 50,
+                                                width: 44,
+                                                height: 44,
                                                 decoration: ShapeDecoration(
                                                     gradient: LinearGradient(
                                                         begin: Alignment(0.50, -0.00),
@@ -615,8 +615,8 @@ class HomeScreen extends StatelessWidget {
                                             ),
                                         ),
                                         Positioned(
-                                            left: 10,
-                                            top: 2,
+                                            left: 6,
+                                            top: 0,
                                             child: SizedBox(
                                                 width: 32,
                                                 height: 42,
@@ -681,64 +681,56 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-                  child: LayoutBuilder(
-                    builder: (context, constraints) {
-                      // Calculăm lățimea disponibilă pentru fiecare buton
-                      final availableWidth = constraints.maxWidth;
-                      final buttonWidth = availableWidth / 7; // Împărțim egal în 7 părți
-                      
-                      return Row(
-                        children: weekDates.map((date) {
-                          final day = DateFormat('dd').format(date);
-                          final month = DateFormat('MMM').format(date);
-                          final bool isToday = isSameDay(date, today);
-                          
-                          return Expanded(
-                            child: Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 2.0),
-                              child: ElevatedButton(
-                                onPressed: () {},
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: isToday
-                                      ? const Color.fromARGB(255, 255, 246, 167)
-                                      : const Color.fromARGB(255, 253, 155, 126),
-                                  foregroundColor: Colors.black,
-                                  elevation: isToday ? 8 : 4,
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(11),
-                                  ),
-                                  padding: const EdgeInsets.symmetric(
-                                    vertical: 8,
-                                    horizontal: 4,
-                                  ),
-                                  minimumSize: Size(buttonWidth, 80),
-                                ),
-                                child: Column(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    Text(
-                                      day,
-                                      style: const TextStyle(
-                                        fontSize: 17,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    Text(
-                                      month,
-                                      style: const TextStyle(
-                                        fontSize: 19,
-                                        color: Color.fromARGB(255, 58, 58, 58),
-                                      ),
-                                    ),
-                                  ],
-                                ),
+                  padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 2),
+                  child: SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: weekDates.map((date) {
+                        final day = DateFormat('dd').format(date);
+                        final month = DateFormat('MMM').format(date);
+                        final bool isToday = isSameDay(date, today);
+                        return Padding(
+                          padding: const EdgeInsets.only(left: 6.0, right: 2.0),
+                          child: ElevatedButton(
+                            onPressed: () {},
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: isToday
+                                  ? const Color.fromARGB(255, 255, 246, 167)
+                                  : const Color.fromARGB(255, 253, 155, 126),
+                              foregroundColor: Colors.black,
+                              elevation: isToday ? 8 : 4,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(11),
                               ),
+                              padding: const EdgeInsets.symmetric(
+                                vertical: 8,
+                                horizontal: 6,
+                              ),
+                              minimumSize: const Size(55, 80),
                             ),
-                          );
-                        }).toList(),
-                      );
-                    }
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(
+                                  day,
+                                  style: const TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                Text(
+                                  month,
+                                  style: const TextStyle(
+                                    fontSize: 19,
+                                    color: Color.fromARGB(255, 58, 58, 58),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        );
+                      }).toList(),
+                    ),
                   ),
                 ),
               ),
@@ -747,11 +739,11 @@ class HomeScreen extends StatelessWidget {
           Positioned(
               top: 170,
               left: 0,
-              right: 550,
+              right: 220,
               child: Center(
                   child: Container(
-                      width: 220,
-                      height: 220,
+                      width: 156,
+                      height: 156,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/img1.png'),
@@ -770,7 +762,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-              top: 350,
+              top: 320,
               left: 0,
               right: 320,
               child: Center(
@@ -795,13 +787,13 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-              top: 500,
+              top: 460,
               left: 0,
-              right: 600,
+              right: 350,
               child: Center(
                   child: Container(
-                      width: 80,
-                      height: 80,
+                      width: 66,
+                      height: 66,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/img3.png'),
@@ -820,13 +812,13 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-              top: 650,
+              top: 530,
               left: 0,
-              right: 650,
+              right: 350,
               child: Center(
                   child: Container(
-                      width: 100,
-                      height: 100,
+                      width: 66,
+                      height: 66,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/img5.png'),
@@ -845,13 +837,13 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-              top: 1050,
+              top: 770,
               left: 0,
-              right: 650,
+              right: 350,
               child: Center(
                   child: Container(
-                      width: 80,
-                      height: 80,
+                      width: 66,
+                      height: 66,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/img9.png'),
@@ -871,8 +863,8 @@ class HomeScreen extends StatelessWidget {
               ),
               if (profileImagePath != null)
                 Positioned(
-                  top: 445,
-                  left: 160,
+                  top: 335,
+                  left: 110,
                   right: 0,
                   child: Center(
                     child: GestureDetector(
@@ -887,8 +879,8 @@ class HomeScreen extends StatelessWidget {
                         );
                       },
                       child: Container(
-                        width: 40,
-                        height: 40,
+                        width: 38,
+                        height: 38,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
                           border: Border.all(
@@ -912,13 +904,13 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
               Positioned(
-              top: 825,
-              left: 420,
+              top: 645,
+              left: 220,
               right: 0,
               child: Center(
                   child: Container(
-                      width: 65,
-                      height: 65,
+                      width: 55,
+                      height: 55,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/btnClaireProfile.png'),
@@ -938,12 +930,12 @@ class HomeScreen extends StatelessWidget {
               ),
               Positioned(
               top: 170,
-              left: 550,
+              left: 280,
               right: 0,
               child: Center(
                   child: Container(
-                      width: 200,
-                      height: 200,
+                      width: 156,
+                      height: 156,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/img4.png'),
@@ -962,13 +954,13 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-              top: 500,
-              left: 400,
+              top: 380,
+              left: 280,
               right: 0,
               child: Center(
                   child: Container(
-                      width: 200,
-                      height: 200,
+                      width: 156,
+                      height: 156,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/img2.png'),
@@ -987,13 +979,13 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-              top: 820,
+              top: 580,
               left: 0,
-              right: 500,
+              right: 280,
               child: Center(
                   child: Container(
-                      width: 200,
-                      height: 200,
+                      width: 156,
+                      height: 156,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/img10.png'),
@@ -1012,13 +1004,13 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-              top: 750,
-              left: 600,
+              top: 570,
+              left: 320,
               right: 0,
               child: Center(
                   child: Container(
-                      width: 110,
-                      height: 110,
+                      width: 86,
+                      height: 86,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/img7.png'),
@@ -1037,13 +1029,13 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-              top: 960,
-              left: 600,
+              top: 700,
+              left: 360,
               right: 0,
               child: Center(
                   child: Container(
-                      width: 140,
-                      height: 140,
+                      width: 106,
+                      height: 106,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/img8.png'),
